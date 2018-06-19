@@ -46,7 +46,6 @@ namespace OnlineDate
             public string name { get; set; }
             public sys sys { get; set; }
             public double dt { get; set; }
-            public wind wind { get; set; }
             public main main { get; set; }
             public List <weather> weatherList { get; set; }
             public coord coordinate { get; set; }

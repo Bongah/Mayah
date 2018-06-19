@@ -72,7 +72,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblnum = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblTemp = new System.Windows.Forms.Label();
             this.lblcityName = new System.Windows.Forms.Label();
             this.lblSouth = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -91,6 +90,7 @@
             this.lblOnline = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.lblPC = new System.Windows.Forms.Label();
+            this.lblTemp = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -117,6 +117,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblTemp);
             this.groupBox2.Controls.Add(this.lbltemp_6);
             this.groupBox2.Controls.Add(this.lblWindS6);
             this.groupBox2.Controls.Add(this.lblDescription6);
@@ -156,7 +157,6 @@
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.lblnum);
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.lblTemp);
             this.groupBox2.Controls.Add(this.lblcityName);
             this.groupBox2.Controls.Add(this.lblSouth);
             this.groupBox2.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -589,17 +589,6 @@
             this.pictureBox1.TabIndex = 50;
             this.pictureBox1.TabStop = false;
             // 
-            // lblTemp
-            // 
-            this.lblTemp.AutoSize = true;
-            this.lblTemp.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemp.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTemp.Location = new System.Drawing.Point(378, 55);
-            this.lblTemp.Name = "lblTemp";
-            this.lblTemp.Size = new System.Drawing.Size(28, 29);
-            this.lblTemp.TabIndex = 49;
-            this.lblTemp.Text = "C";
-            // 
             // lblcityName
             // 
             this.lblcityName.AutoSize = true;
@@ -786,6 +775,17 @@
             this.lblPC.TabIndex = 10;
             this.lblPC.Text = "PC Time:";
             // 
+            // lblTemp
+            // 
+            this.lblTemp.AutoSize = true;
+            this.lblTemp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemp.ForeColor = System.Drawing.Color.Gold;
+            this.lblTemp.Location = new System.Drawing.Point(382, 59);
+            this.lblTemp.Name = "lblTemp";
+            this.lblTemp.Size = new System.Drawing.Size(29, 20);
+            this.lblTemp.TabIndex = 91;
+            this.lblTemp.Text = "26";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -858,7 +858,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblnum;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblTemp;
         private System.Windows.Forms.Label lblcityName;
         private System.Windows.Forms.Label lblSouth;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -877,6 +876,7 @@
         private System.Windows.Forms.Label lblOnline;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblPC;
+        private System.Windows.Forms.Label lblTemp;
     }
 }
 

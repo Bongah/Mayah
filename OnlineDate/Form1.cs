@@ -32,7 +32,7 @@ namespace OnlineDate
         {
             InitializeComponent();
             getWeather("Port Elizabeth");
-            getForcast("Port Elizabeth");
+            getForecast("Port Elizabeth");
         }
 
         void getWeather(string city)
@@ -49,14 +49,19 @@ namespace OnlineDate
 
                 lblcityName.Text = string.Format("{0}", outPut.name);
                 lblSouth.Text = string.Format("{0}", outPut.sys.country);
-                lblnum.Text = string.Format("{0} \u00B0"+"C", outPut.main.temp);
-
-
+                lblTemp.Text = string.Format("{0} \u00B0"+"C", outPut.main.temp);
 
             }
 
         }
-        void getForcast(string city)
+        DateTime GetDate(double days)
+        {
+            DateTime day = new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc).ToLocalTime();
+            day = day.AddDays(days).ToLocalTime();
+
+            return day;
+        }
+        void getForecast(string city)
         {
             int day = 7;
             string url = string.Format("http://api.openweathermap.org/data/2.5/forecast?q={0},ZA&units=metric&cnt={1}&appid={2}",city,day,APPID);
@@ -71,48 +76,48 @@ namespace OnlineDate
 
                 //Nextday
 
-                // lblDay1.Text = string.Format("{0}", forcast.list[1].dt);
-                lblCondition1.Text = string.Format("{0}", forcast.list[1].weather[0].main);
-                lblDescription1.Text = string.Format("{0}", forcast.list[1].weather[0].description);
-                lbltemp1.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp);
-                lblWindS1.Text = string.Format("{0} km/h", forcast.list[1].speed);
+                lblDay1.Text = string.Format("{0}",GetDate( forcast.list[0].dt).DayOfWeek);
+                lblCondition1.Text = string.Format("{0}", forcast.list[0].weather[0].main);
+                lblDescription1.Text = string.Format("{0}", forcast.list[0].weather[0].description);
+                lbltemp1.Text = string.Format("{0} \u00B0" + "C", forcast.list[0].main.temp);
+                lblWindS1.Text = string.Format("{0} km/h", forcast.list[0].wind.speed);
 
-                ////Tomorow
+                //Tomorow
 
-                //lblDay2.Text = string.Format("{0}", forcast.list[2].dt);
-                //lblCondition2.Text = string.Format("{0}", forcast.list[2].weather[0].main);
-                //lblDescription2.Text = string.Format("{0}", forcast.list[2].weather[0].description);
-                //lbltemp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp);
-                //lblWindS2.Text = string.Format("{0} km/h", forcast.list[2].speed);
+                lblDay2.Text = string.Format("{0}", GetDate(forcast.list[0].dt).DayOfWeek);
+                lblCondition2.Text = string.Format("{0}", forcast.list[1].weather[0].main);
+                lblDescription2.Text = string.Format("{0}", forcast.list[1].weather[0].description);
+                lbltemp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].main.temp);
+                lblWindS2.Text = string.Format("{0} km/h", forcast.list[1].wind.speed);
 
-                ////Third day
-                //lblDay3.Text = string.Format("{0}", forcast.list[3].dt);
-                //lblCondition3.Text = string.Format("{0}", forcast.list[3].weather[0].main);
-                //lblDescription3.Text = string.Format("{0}", forcast.list[3].weather[0].description);
-                //lbltemp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[3].temp);
-                //lblWindS3.Text = string.Format("{0} km/h", forcast.list[3].speed);
+                //Third day
+                lblDay3.Text = string.Format("{0}", GetDate(forcast.list[0].dt).DayOfWeek);
+                lblCondition3.Text = string.Format("{0}", forcast.list[2].weather[0].main);
+                lblDescription3.Text = string.Format("{0}", forcast.list[2].weather[0].description);
+                lbltemp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].main.temp);
+                lblWindS3.Text = string.Format("{0} km/h", forcast.list[2].wind.speed);
 
-                ////Fourth day
+                //Fourth day
 
-                //lblDay4.Text = string.Format("{0}", forcast.list[4].dt);
-                //lblCondition4.Text = string.Format("{0}", forcast.list[4].weather[0].main);
-                //lblDescription4.Text = string.Format("{0}", forcast.list[4].weather[0].description);
-                //lbltemp_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[4].temp);
-                //lblWindS4.Text = string.Format("{0} km/h", forcast.list[4].speed);
+                lblDay4.Text = string.Format("{0}", GetDate(forcast.list[0].dt).DayOfWeek);
+                lblCondition4.Text = string.Format("{0}", forcast.list[3].weather[0].main);
+                lblDescription4.Text = string.Format("{0}", forcast.list[3].weather[0].description);
+                lbltemp_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[3].main.temp);
+                lblWindS4.Text = string.Format("{0} km/h", forcast.list[3].wind.speed);
 
-                ////Firth
-                //lblDay5.Text = string.Format("{0}", forcast.list[5].dt);
-                //lblCondition5.Text = string.Format("{0}", forcast.list[5].weather[0].main);
-                //lblDescription5.Text = string.Format("{0}", forcast.list[5].weather[0].description);
-                //lbltemp_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[5].temp);
-                //lblWindS5.Text = string.Format("{0} km/h", forcast.list[5].speed);
+                //Firth
+                lblDay5.Text = string.Format("{0}", GetDate(forcast.list[0].dt).DayOfWeek);
+                lblCondition5.Text = string.Format("{0}", forcast.list[4].weather[0].main);
+                lblDescription5.Text = string.Format("{0}", forcast.list[4].weather[0].description);
+                lbltemp_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[4].main.temp);
+                lblWindS5.Text = string.Format("{0} km/h", forcast.list[4].wind.speed);
 
-                ////sixth
-                //lblDay6.Text = string.Format("{0}", forcast.list[6].dt);
-                //lblCondition6.Text = string.Format("{0}", forcast.list[6].weather[0].main);
-                //lblDescription6.Text = string.Format("{0}", forcast.list[6].weather[0].description);
-                //lbltemp_6.Text = string.Format("{0} \u00B0" + "C", forcast.list[6].temp);
-                //lblWindS6.Text = string.Format("{0} km/h", forcast.list[6].speed);
+                //sixth
+                lblDay6.Text = string.Format("{0}", GetDate(forcast.list[0].dt).DayOfWeek);
+                lblCondition6.Text = string.Format("{0}", forcast.list[5].weather[0].main);
+                lblDescription6.Text = string.Format("{0}", forcast.list[5].weather[0].description);
+                lbltemp_6.Text = string.Format("{0} \u00B0" + "C", forcast.list[5].main.temp);
+                lblWindS6.Text = string.Format("{0} km/h", forcast.list[5].wind.speed);
 
 
 
@@ -125,35 +130,26 @@ namespace OnlineDate
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             DateTimeOffset localTime = DateTimeOffset.Now;
-            DateTimeOffset utcGlobal = DateTimeOffset.UtcNow;
+            try
+            {
+                var myHttpWebRequest = (HttpWebRequest)WebRequest.Create("http://www.microsoft.com");
+                var response = myHttpWebRequest.GetResponse();
+                string todaysDates = response.Headers["date"];
+                DateTime dateTime = DateTime.ParseExact(todaysDates, "ddd, dd MMM yyyy HH:mm:ss 'GMT'", CultureInfo.InvariantCulture.DateTimeFormat, DateTimeStyles.AssumeUniversal);
+
+                txtLoc.Text = dateTime.ToString("dd-mm-yyyy hh:mm:ss");
+                response.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Failed To Get The Online Time! \n" + ex.Message + "\n The Application Will Close");
+                Application.Exit();
+            }
+
 
             txtPC.Text = localTime.ToString("dd-mm-yyyy hh:mm:ss");
-            txtLoc.Text = utcGlobal.ToString("dd-mm-yyyy hh:mm:ss");
 
-            //graphics
-          //  g = Graphics.FromImage(bmp);
-
-
-
-            //clear graphics
-           // g.Clear(Color.DarkGoldenrod);
-
-            //draw progressbar
-          //  g.FillRectangle(Brushes.CornflowerBlue, new Rectangle(0, 0, (int)(pbComplete * pbUnit), pbHIEGHT));
-
-            //draw % Complete
-          //  g.DrawString(pbComplete + "%", new Font("Arial", pbHIEGHT / 2), Brushes.Black, new PointF(pbWIDTH / 2 - pbHIEGHT, pbHIEGHT / 10));
-
-            // load bitmap in picturebox picboxPB
-          //  ;
-
-          //  pbComplete++;
-          //  if (pbComplete > 100)
-          //  {
-                //dispose
-            //    g.Dispose();
-                
-          //  }
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -175,9 +171,10 @@ namespace OnlineDate
                 txtLoc.Text = dateTime.ToString();
                 response.Close();
             }
-            catch
+            catch(Exception ex)
             {
-
+                MessageBox.Show("Failed To Get The Online Time! \n" + ex.Message + "\n The Application Will Close");
+                Application.Exit();
             }
 
             DateTimeOffset localTime = DateTimeOffset.Now;
@@ -299,18 +296,6 @@ namespace OnlineDate
             }
 
 
-
-            /*
-
-            int maxitem = 0;
-            maxitem = 100;
-            progressBar1.Maximum = 100;
-            progressBar1.Value += 0;
-            for (int i = 0; i < maxitem; i++)
-                progressBar1.Value += 1;
-                */
-
-
             try
             {
                 NetworkCredential login = new NetworkCredential("maqashuaa@gmail.com", "210078626aa");
@@ -350,7 +335,7 @@ namespace OnlineDate
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-           //Form1.Closed();
+           Application.Exit();
         }
 
         private void timer1_Tick(object sender, EventArgs e)

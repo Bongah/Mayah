@@ -15,7 +15,18 @@ namespace OnlineDate
     public class temp
     {
         public double day { get; set; }
+
     }
+    public class main
+    {
+        public double temp { get; set; }
+
+
+    }// end of main class
+    public class wind
+    {
+        public double speed { get; set; }
+    } // end of class speed
 
     public class weather
     {
@@ -31,7 +42,9 @@ namespace OnlineDate
         public double dt { get; set; }
         public double pressure { get; set; }
         public double humidity { get; set; }
+        public wind wind { get; set; }
         public double speed { get; set; }
+        public main main { get; set; }
         public temp temp { get; set; }
         public List<weather> weather { get; set; }
     }
