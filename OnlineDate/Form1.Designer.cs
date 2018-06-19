@@ -33,10 +33,22 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lbltemp_6 = new System.Windows.Forms.Label();
+            this.lblWindS6 = new System.Windows.Forms.Label();
+            this.lblDescription6 = new System.Windows.Forms.Label();
+            this.lblCondition6 = new System.Windows.Forms.Label();
+            this.lblDay6 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.lbltemp_3 = new System.Windows.Forms.Label();
+            this.lblWindS3 = new System.Windows.Forms.Label();
+            this.lblDescription3 = new System.Windows.Forms.Label();
+            this.lblCondition3 = new System.Windows.Forms.Label();
+            this.lblDay3 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lbltemp_5 = new System.Windows.Forms.Label();
             this.lblWindS5 = new System.Windows.Forms.Label();
             this.lblDescription5 = new System.Windows.Forms.Label();
-            this.blCondition5 = new System.Windows.Forms.Label();
+            this.lblCondition5 = new System.Windows.Forms.Label();
             this.lblDay5 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.lbltemp_4 = new System.Windows.Forms.Label();
@@ -52,10 +64,10 @@
             this.lblDay2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.lbltemp2 = new System.Windows.Forms.Label();
+            this.lbltemp1 = new System.Windows.Forms.Label();
             this.lblWindS1 = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.lblCodition = new System.Windows.Forms.Label();
+            this.lblDescription1 = new System.Windows.Forms.Label();
+            this.lblCondition1 = new System.Windows.Forms.Label();
             this.lblDay1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblnum = new System.Windows.Forms.Label();
@@ -63,18 +75,6 @@
             this.lblTemp = new System.Windows.Forms.Label();
             this.lblcityName = new System.Windows.Forms.Label();
             this.lblSouth = new System.Windows.Forms.Label();
-            this.lbltemp_6 = new System.Windows.Forms.Label();
-            this.lblWindS6 = new System.Windows.Forms.Label();
-            this.lblDescription6 = new System.Windows.Forms.Label();
-            this.lblCondition6 = new System.Windows.Forms.Label();
-            this.lblDay6 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.lbltemp_3 = new System.Windows.Forms.Label();
-            this.lblWindS3 = new System.Windows.Forms.Label();
-            this.lblDescription3 = new System.Windows.Forms.Label();
-            this.lblCondition3 = new System.Windows.Forms.Label();
-            this.lblDay3 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblPercent = new System.Windows.Forms.Label();
@@ -92,13 +92,13 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.lblPC = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
@@ -132,7 +132,7 @@
             this.groupBox2.Controls.Add(this.lbltemp_5);
             this.groupBox2.Controls.Add(this.lblWindS5);
             this.groupBox2.Controls.Add(this.lblDescription5);
-            this.groupBox2.Controls.Add(this.blCondition5);
+            this.groupBox2.Controls.Add(this.lblCondition5);
             this.groupBox2.Controls.Add(this.lblDay5);
             this.groupBox2.Controls.Add(this.pictureBox6);
             this.groupBox2.Controls.Add(this.lbltemp_4);
@@ -148,10 +148,10 @@
             this.groupBox2.Controls.Add(this.lblDay2);
             this.groupBox2.Controls.Add(this.pictureBox3);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.lbltemp2);
+            this.groupBox2.Controls.Add(this.lbltemp1);
             this.groupBox2.Controls.Add(this.lblWindS1);
-            this.groupBox2.Controls.Add(this.lblDescription);
-            this.groupBox2.Controls.Add(this.lblCodition);
+            this.groupBox2.Controls.Add(this.lblDescription1);
+            this.groupBox2.Controls.Add(this.lblCondition1);
             this.groupBox2.Controls.Add(this.lblDay1);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.lblnum);
@@ -168,6 +168,136 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Weather Forcast:";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // lbltemp_6
+            // 
+            this.lbltemp_6.AutoSize = true;
+            this.lbltemp_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltemp_6.ForeColor = System.Drawing.Color.DarkRed;
+            this.lbltemp_6.Location = new System.Drawing.Point(546, 390);
+            this.lbltemp_6.Name = "lbltemp_6";
+            this.lbltemp_6.Size = new System.Drawing.Size(26, 18);
+            this.lbltemp_6.TabIndex = 88;
+            this.lbltemp_6.Text = "26";
+            // 
+            // lblWindS6
+            // 
+            this.lblWindS6.AutoSize = true;
+            this.lblWindS6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWindS6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblWindS6.Location = new System.Drawing.Point(546, 352);
+            this.lblWindS6.Name = "lblWindS6";
+            this.lblWindS6.Size = new System.Drawing.Size(63, 18);
+            this.lblWindS6.TabIndex = 87;
+            this.lblWindS6.Text = "12km/h";
+            // 
+            // lblDescription6
+            // 
+            this.lblDescription6.AutoSize = true;
+            this.lblDescription6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription6.ForeColor = System.Drawing.Color.ForestGreen;
+            this.lblDescription6.Location = new System.Drawing.Point(436, 390);
+            this.lblDescription6.Name = "lblDescription6";
+            this.lblDescription6.Size = new System.Drawing.Size(94, 18);
+            this.lblDescription6.TabIndex = 86;
+            this.lblDescription6.Text = "Description";
+            // 
+            // lblCondition6
+            // 
+            this.lblCondition6.AutoSize = true;
+            this.lblCondition6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCondition6.ForeColor = System.Drawing.Color.Gold;
+            this.lblCondition6.Location = new System.Drawing.Point(436, 370);
+            this.lblCondition6.Name = "lblCondition6";
+            this.lblCondition6.Size = new System.Drawing.Size(89, 18);
+            this.lblCondition6.TabIndex = 85;
+            this.lblCondition6.Text = "Conditions";
+            // 
+            // lblDay6
+            // 
+            this.lblDay6.AutoSize = true;
+            this.lblDay6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDay6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblDay6.Location = new System.Drawing.Point(436, 350);
+            this.lblDay6.Name = "lblDay6";
+            this.lblDay6.Size = new System.Drawing.Size(49, 20);
+            this.lblDay6.TabIndex = 84;
+            this.lblDay6.Text = "Days";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(329, 350);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(101, 62);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 83;
+            this.pictureBox7.TabStop = false;
+            // 
+            // lbltemp_3
+            // 
+            this.lbltemp_3.AutoSize = true;
+            this.lbltemp_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltemp_3.ForeColor = System.Drawing.Color.DarkRed;
+            this.lbltemp_3.Location = new System.Drawing.Point(233, 390);
+            this.lbltemp_3.Name = "lbltemp_3";
+            this.lbltemp_3.Size = new System.Drawing.Size(26, 18);
+            this.lbltemp_3.TabIndex = 82;
+            this.lbltemp_3.Text = "26";
+            // 
+            // lblWindS3
+            // 
+            this.lblWindS3.AutoSize = true;
+            this.lblWindS3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWindS3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblWindS3.Location = new System.Drawing.Point(233, 352);
+            this.lblWindS3.Name = "lblWindS3";
+            this.lblWindS3.Size = new System.Drawing.Size(63, 18);
+            this.lblWindS3.TabIndex = 81;
+            this.lblWindS3.Text = "12km/h";
+            // 
+            // lblDescription3
+            // 
+            this.lblDescription3.AutoSize = true;
+            this.lblDescription3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription3.ForeColor = System.Drawing.Color.ForestGreen;
+            this.lblDescription3.Location = new System.Drawing.Point(123, 390);
+            this.lblDescription3.Name = "lblDescription3";
+            this.lblDescription3.Size = new System.Drawing.Size(94, 18);
+            this.lblDescription3.TabIndex = 80;
+            this.lblDescription3.Text = "Description";
+            // 
+            // lblCondition3
+            // 
+            this.lblCondition3.AutoSize = true;
+            this.lblCondition3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCondition3.ForeColor = System.Drawing.Color.Gold;
+            this.lblCondition3.Location = new System.Drawing.Point(123, 370);
+            this.lblCondition3.Name = "lblCondition3";
+            this.lblCondition3.Size = new System.Drawing.Size(89, 18);
+            this.lblCondition3.TabIndex = 79;
+            this.lblCondition3.Text = "Conditions";
+            // 
+            // lblDay3
+            // 
+            this.lblDay3.AutoSize = true;
+            this.lblDay3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDay3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblDay3.Location = new System.Drawing.Point(123, 350);
+            this.lblDay3.Name = "lblDay3";
+            this.lblDay3.Size = new System.Drawing.Size(49, 20);
+            this.lblDay3.TabIndex = 78;
+            this.lblDay3.Text = "Days";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(16, 350);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(101, 62);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 77;
+            this.pictureBox4.TabStop = false;
             // 
             // lbltemp_5
             // 
@@ -202,16 +332,16 @@
             this.lblDescription5.TabIndex = 74;
             this.lblDescription5.Text = "Description";
             // 
-            // blCondition5
+            // lblCondition5
             // 
-            this.blCondition5.AutoSize = true;
-            this.blCondition5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blCondition5.ForeColor = System.Drawing.Color.Gold;
-            this.blCondition5.Location = new System.Drawing.Point(436, 277);
-            this.blCondition5.Name = "blCondition5";
-            this.blCondition5.Size = new System.Drawing.Size(89, 18);
-            this.blCondition5.TabIndex = 73;
-            this.blCondition5.Text = "Conditions";
+            this.lblCondition5.AutoSize = true;
+            this.lblCondition5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCondition5.ForeColor = System.Drawing.Color.Gold;
+            this.lblCondition5.Location = new System.Drawing.Point(436, 277);
+            this.lblCondition5.Name = "lblCondition5";
+            this.lblCondition5.Size = new System.Drawing.Size(89, 18);
+            this.lblCondition5.TabIndex = 73;
+            this.lblCondition5.Text = "Conditions";
             // 
             // lblDay5
             // 
@@ -375,16 +505,16 @@
             this.label4.TabIndex = 58;
             this.label4.Text = "Forcast";
             // 
-            // lbltemp2
+            // lbltemp1
             // 
-            this.lbltemp2.AutoSize = true;
-            this.lbltemp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltemp2.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp2.Location = new System.Drawing.Point(228, 208);
-            this.lbltemp2.Name = "lbltemp2";
-            this.lbltemp2.Size = new System.Drawing.Size(26, 18);
-            this.lbltemp2.TabIndex = 57;
-            this.lbltemp2.Text = "26";
+            this.lbltemp1.AutoSize = true;
+            this.lbltemp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltemp1.ForeColor = System.Drawing.Color.DarkRed;
+            this.lbltemp1.Location = new System.Drawing.Point(228, 208);
+            this.lbltemp1.Name = "lbltemp1";
+            this.lbltemp1.Size = new System.Drawing.Size(26, 18);
+            this.lbltemp1.TabIndex = 57;
+            this.lbltemp1.Text = "26";
             // 
             // lblWindS1
             // 
@@ -397,27 +527,27 @@
             this.lblWindS1.TabIndex = 56;
             this.lblWindS1.Text = "12km/h";
             // 
-            // lblDescription
+            // lblDescription1
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription.Location = new System.Drawing.Point(123, 210);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(94, 18);
-            this.lblDescription.TabIndex = 55;
-            this.lblDescription.Text = "Description";
+            this.lblDescription1.AutoSize = true;
+            this.lblDescription1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDescription1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.lblDescription1.Location = new System.Drawing.Point(123, 210);
+            this.lblDescription1.Name = "lblDescription1";
+            this.lblDescription1.Size = new System.Drawing.Size(94, 18);
+            this.lblDescription1.TabIndex = 55;
+            this.lblDescription1.Text = "Description";
             // 
-            // lblCodition
+            // lblCondition1
             // 
-            this.lblCodition.AutoSize = true;
-            this.lblCodition.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodition.ForeColor = System.Drawing.Color.Gold;
-            this.lblCodition.Location = new System.Drawing.Point(123, 190);
-            this.lblCodition.Name = "lblCodition";
-            this.lblCodition.Size = new System.Drawing.Size(89, 18);
-            this.lblCodition.TabIndex = 54;
-            this.lblCodition.Text = "Conditions";
+            this.lblCondition1.AutoSize = true;
+            this.lblCondition1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCondition1.ForeColor = System.Drawing.Color.Gold;
+            this.lblCondition1.Location = new System.Drawing.Point(123, 190);
+            this.lblCondition1.Name = "lblCondition1";
+            this.lblCondition1.Size = new System.Drawing.Size(89, 18);
+            this.lblCondition1.TabIndex = 54;
+            this.lblCondition1.Text = "Conditions";
             // 
             // lblDay1
             // 
@@ -491,136 +621,6 @@
             this.lblSouth.Size = new System.Drawing.Size(153, 29);
             this.lblSouth.TabIndex = 47;
             this.lblSouth.Text = "South Africa";
-            // 
-            // lbltemp_6
-            // 
-            this.lbltemp_6.AutoSize = true;
-            this.lbltemp_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltemp_6.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_6.Location = new System.Drawing.Point(546, 390);
-            this.lbltemp_6.Name = "lbltemp_6";
-            this.lbltemp_6.Size = new System.Drawing.Size(26, 18);
-            this.lbltemp_6.TabIndex = 88;
-            this.lbltemp_6.Text = "26";
-            // 
-            // lblWindS6
-            // 
-            this.lblWindS6.AutoSize = true;
-            this.lblWindS6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWindS6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS6.Location = new System.Drawing.Point(546, 352);
-            this.lblWindS6.Name = "lblWindS6";
-            this.lblWindS6.Size = new System.Drawing.Size(63, 18);
-            this.lblWindS6.TabIndex = 87;
-            this.lblWindS6.Text = "12km/h";
-            // 
-            // lblDescription6
-            // 
-            this.lblDescription6.AutoSize = true;
-            this.lblDescription6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription6.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription6.Location = new System.Drawing.Point(436, 390);
-            this.lblDescription6.Name = "lblDescription6";
-            this.lblDescription6.Size = new System.Drawing.Size(94, 18);
-            this.lblDescription6.TabIndex = 86;
-            this.lblDescription6.Text = "Description";
-            // 
-            // lblCondition6
-            // 
-            this.lblCondition6.AutoSize = true;
-            this.lblCondition6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCondition6.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition6.Location = new System.Drawing.Point(436, 370);
-            this.lblCondition6.Name = "lblCondition6";
-            this.lblCondition6.Size = new System.Drawing.Size(89, 18);
-            this.lblCondition6.TabIndex = 85;
-            this.lblCondition6.Text = "Conditions";
-            // 
-            // lblDay6
-            // 
-            this.lblDay6.AutoSize = true;
-            this.lblDay6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay6.Location = new System.Drawing.Point(436, 350);
-            this.lblDay6.Name = "lblDay6";
-            this.lblDay6.Size = new System.Drawing.Size(49, 20);
-            this.lblDay6.TabIndex = 84;
-            this.lblDay6.Text = "Days";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(329, 350);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(101, 62);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 83;
-            this.pictureBox7.TabStop = false;
-            // 
-            // lbltemp_3
-            // 
-            this.lbltemp_3.AutoSize = true;
-            this.lbltemp_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltemp_3.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_3.Location = new System.Drawing.Point(233, 390);
-            this.lbltemp_3.Name = "lbltemp_3";
-            this.lbltemp_3.Size = new System.Drawing.Size(26, 18);
-            this.lbltemp_3.TabIndex = 82;
-            this.lbltemp_3.Text = "26";
-            // 
-            // lblWindS3
-            // 
-            this.lblWindS3.AutoSize = true;
-            this.lblWindS3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWindS3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS3.Location = new System.Drawing.Point(233, 352);
-            this.lblWindS3.Name = "lblWindS3";
-            this.lblWindS3.Size = new System.Drawing.Size(63, 18);
-            this.lblWindS3.TabIndex = 81;
-            this.lblWindS3.Text = "12km/h";
-            // 
-            // lblDescription3
-            // 
-            this.lblDescription3.AutoSize = true;
-            this.lblDescription3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDescription3.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription3.Location = new System.Drawing.Point(123, 390);
-            this.lblDescription3.Name = "lblDescription3";
-            this.lblDescription3.Size = new System.Drawing.Size(94, 18);
-            this.lblDescription3.TabIndex = 80;
-            this.lblDescription3.Text = "Description";
-            // 
-            // lblCondition3
-            // 
-            this.lblCondition3.AutoSize = true;
-            this.lblCondition3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCondition3.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition3.Location = new System.Drawing.Point(123, 370);
-            this.lblCondition3.Name = "lblCondition3";
-            this.lblCondition3.Size = new System.Drawing.Size(89, 18);
-            this.lblCondition3.TabIndex = 79;
-            this.lblCondition3.Text = "Conditions";
-            // 
-            // lblDay3
-            // 
-            this.lblDay3.AutoSize = true;
-            this.lblDay3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay3.Location = new System.Drawing.Point(123, 350);
-            this.lblDay3.Name = "lblDay3";
-            this.lblDay3.Size = new System.Drawing.Size(49, 20);
-            this.lblDay3.TabIndex = 78;
-            this.lblDay3.Text = "Days";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(16, 350);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(101, 62);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 77;
-            this.pictureBox4.TabStop = false;
             // 
             // groupBox1
             // 
@@ -800,13 +800,13 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -834,7 +834,7 @@
         private System.Windows.Forms.Label lbltemp_5;
         private System.Windows.Forms.Label lblWindS5;
         private System.Windows.Forms.Label lblDescription5;
-        private System.Windows.Forms.Label blCondition5;
+        private System.Windows.Forms.Label lblCondition5;
         private System.Windows.Forms.Label lblDay5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label lbltemp_4;
@@ -850,10 +850,10 @@
         private System.Windows.Forms.Label lblDay2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lbltemp2;
+        private System.Windows.Forms.Label lbltemp1;
         private System.Windows.Forms.Label lblWindS1;
-        private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.Label lblCodition;
+        private System.Windows.Forms.Label lblDescription1;
+        private System.Windows.Forms.Label lblCondition1;
         private System.Windows.Forms.Label lblDay1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblnum;
