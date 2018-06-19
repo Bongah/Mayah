@@ -54,10 +54,10 @@ namespace OnlineDate
             }
 
         }
-        DateTime GetDate(double days)
+        DateTime GetDate(double millisecond)
         {
             DateTime day = new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc).ToLocalTime();
-            day = day.AddDays(days).ToLocalTime();
+            day = day.AddSeconds(millisecond).ToLocalTime();
 
             return day;
         }
