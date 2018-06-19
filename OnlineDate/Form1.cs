@@ -71,48 +71,48 @@ namespace OnlineDate
 
                 //Nextday
 
-                 lblDay1.Text = string.Format("{0}", forcast.list[1].dt);
+                // lblDay1.Text = string.Format("{0}", forcast.list[1].dt);
                 lblCondition1.Text = string.Format("{0}", forcast.list[1].weather[0].main);
                 lblDescription1.Text = string.Format("{0}", forcast.list[1].weather[0].description);
                 lbltemp1.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp);
                 lblWindS1.Text = string.Format("{0} km/h", forcast.list[1].speed);
 
-                //Tomorow
+                ////Tomorow
 
-                lblDay2.Text = string.Format("{0}", forcast.list[2].dt);
-                lblCondition2.Text = string.Format("{0}", forcast.list[2].weather[0].main);
-                lblDescription2.Text = string.Format("{0}", forcast.list[2].weather[0].description);
-                lbltemp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp);
-                lblWindS2.Text = string.Format("{0} km/h", forcast.list[2].speed);
+                //lblDay2.Text = string.Format("{0}", forcast.list[2].dt);
+                //lblCondition2.Text = string.Format("{0}", forcast.list[2].weather[0].main);
+                //lblDescription2.Text = string.Format("{0}", forcast.list[2].weather[0].description);
+                //lbltemp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp);
+                //lblWindS2.Text = string.Format("{0} km/h", forcast.list[2].speed);
 
-                //Third day
-                lblDay3.Text = string.Format("{0}", forcast.list[3].dt);
-                lblCondition3.Text = string.Format("{0}", forcast.list[3].weather[0].main);
-                lblDescription3.Text = string.Format("{0}", forcast.list[3].weather[0].description);
-                lbltemp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[3].temp);
-                lblWindS3.Text = string.Format("{0} km/h", forcast.list[3].speed);
+                ////Third day
+                //lblDay3.Text = string.Format("{0}", forcast.list[3].dt);
+                //lblCondition3.Text = string.Format("{0}", forcast.list[3].weather[0].main);
+                //lblDescription3.Text = string.Format("{0}", forcast.list[3].weather[0].description);
+                //lbltemp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[3].temp);
+                //lblWindS3.Text = string.Format("{0} km/h", forcast.list[3].speed);
 
-                //Fourth day
+                ////Fourth day
 
-                lblDay4.Text = string.Format("{0}", forcast.list[4].dt);
-                lblCondition4.Text = string.Format("{0}", forcast.list[4].weather[0].main);
-                lblDescription4.Text = string.Format("{0}", forcast.list[4].weather[0].description);
-                lbltemp_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[4].temp);
-                lblWindS4.Text = string.Format("{0} km/h", forcast.list[4].speed);
+                //lblDay4.Text = string.Format("{0}", forcast.list[4].dt);
+                //lblCondition4.Text = string.Format("{0}", forcast.list[4].weather[0].main);
+                //lblDescription4.Text = string.Format("{0}", forcast.list[4].weather[0].description);
+                //lbltemp_4.Text = string.Format("{0} \u00B0" + "C", forcast.list[4].temp);
+                //lblWindS4.Text = string.Format("{0} km/h", forcast.list[4].speed);
 
-                //Firth
-                lblDay5.Text = string.Format("{0}", forcast.list[5].dt);
-                lblCondition5.Text = string.Format("{0}", forcast.list[5].weather[0].main);
-                lblDescription5.Text = string.Format("{0}", forcast.list[5].weather[0].description);
-                lbltemp_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[5].temp);
-                lblWindS5.Text = string.Format("{0} km/h", forcast.list[5].speed);
+                ////Firth
+                //lblDay5.Text = string.Format("{0}", forcast.list[5].dt);
+                //lblCondition5.Text = string.Format("{0}", forcast.list[5].weather[0].main);
+                //lblDescription5.Text = string.Format("{0}", forcast.list[5].weather[0].description);
+                //lbltemp_5.Text = string.Format("{0} \u00B0" + "C", forcast.list[5].temp);
+                //lblWindS5.Text = string.Format("{0} km/h", forcast.list[5].speed);
 
-                //sixth
-                lblDay6.Text = string.Format("{0}", forcast.list[6].dt);
-                lblCondition6.Text = string.Format("{0}", forcast.list[6].weather[0].main);
-                lblDescription6.Text = string.Format("{0}", forcast.list[6].weather[0].description);
-                lbltemp_6.Text = string.Format("{0} \u00B0" + "C", forcast.list[6].temp);
-                lblWindS6.Text = string.Format("{0} km/h", forcast.list[6].speed);
+                ////sixth
+                //lblDay6.Text = string.Format("{0}", forcast.list[6].dt);
+                //lblCondition6.Text = string.Format("{0}", forcast.list[6].weather[0].main);
+                //lblDescription6.Text = string.Format("{0}", forcast.list[6].weather[0].description);
+                //lbltemp_6.Text = string.Format("{0} \u00B0" + "C", forcast.list[6].temp);
+                //lblWindS6.Text = string.Format("{0} km/h", forcast.list[6].speed);
 
 
 
