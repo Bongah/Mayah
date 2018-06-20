@@ -174,7 +174,7 @@
             this.lbltemp_6.AutoSize = true;
             this.lbltemp_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp_6.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_6.Location = new System.Drawing.Point(546, 390);
+            this.lbltemp_6.Location = new System.Drawing.Point(515, 387);
             this.lbltemp_6.Name = "lbltemp_6";
             this.lbltemp_6.Size = new System.Drawing.Size(26, 18);
             this.lbltemp_6.TabIndex = 88;
@@ -185,7 +185,7 @@
             this.lblWindS6.AutoSize = true;
             this.lblWindS6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS6.Location = new System.Drawing.Point(546, 352);
+            this.lblWindS6.Location = new System.Drawing.Point(515, 349);
             this.lblWindS6.Name = "lblWindS6";
             this.lblWindS6.Size = new System.Drawing.Size(63, 18);
             this.lblWindS6.TabIndex = 87;
@@ -196,7 +196,7 @@
             this.lblDescription6.AutoSize = true;
             this.lblDescription6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription6.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription6.Location = new System.Drawing.Point(436, 390);
+            this.lblDescription6.Location = new System.Drawing.Point(405, 387);
             this.lblDescription6.Name = "lblDescription6";
             this.lblDescription6.Size = new System.Drawing.Size(94, 18);
             this.lblDescription6.TabIndex = 86;
@@ -207,7 +207,7 @@
             this.lblCondition6.AutoSize = true;
             this.lblCondition6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition6.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition6.Location = new System.Drawing.Point(436, 370);
+            this.lblCondition6.Location = new System.Drawing.Point(405, 367);
             this.lblCondition6.Name = "lblCondition6";
             this.lblCondition6.Size = new System.Drawing.Size(89, 18);
             this.lblCondition6.TabIndex = 85;
@@ -218,7 +218,7 @@
             this.lblDay6.AutoSize = true;
             this.lblDay6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay6.Location = new System.Drawing.Point(436, 350);
+            this.lblDay6.Location = new System.Drawing.Point(405, 347);
             this.lblDay6.Name = "lblDay6";
             this.lblDay6.Size = new System.Drawing.Size(49, 20);
             this.lblDay6.TabIndex = 84;
@@ -227,7 +227,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(329, 350);
+            this.pictureBox7.Location = new System.Drawing.Point(298, 347);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(101, 62);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -239,7 +239,7 @@
             this.lbltemp_3.AutoSize = true;
             this.lbltemp_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp_3.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_3.Location = new System.Drawing.Point(233, 390);
+            this.lbltemp_3.Location = new System.Drawing.Point(223, 390);
             this.lbltemp_3.Name = "lbltemp_3";
             this.lbltemp_3.Size = new System.Drawing.Size(26, 18);
             this.lbltemp_3.TabIndex = 82;
@@ -250,7 +250,7 @@
             this.lblWindS3.AutoSize = true;
             this.lblWindS3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS3.Location = new System.Drawing.Point(233, 352);
+            this.lblWindS3.Location = new System.Drawing.Point(223, 352);
             this.lblWindS3.Name = "lblWindS3";
             this.lblWindS3.Size = new System.Drawing.Size(63, 18);
             this.lblWindS3.TabIndex = 81;
@@ -261,7 +261,7 @@
             this.lblDescription3.AutoSize = true;
             this.lblDescription3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription3.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription3.Location = new System.Drawing.Point(123, 390);
+            this.lblDescription3.Location = new System.Drawing.Point(113, 390);
             this.lblDescription3.Name = "lblDescription3";
             this.lblDescription3.Size = new System.Drawing.Size(94, 18);
             this.lblDescription3.TabIndex = 80;
@@ -272,7 +272,7 @@
             this.lblCondition3.AutoSize = true;
             this.lblCondition3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition3.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition3.Location = new System.Drawing.Point(123, 370);
+            this.lblCondition3.Location = new System.Drawing.Point(113, 370);
             this.lblCondition3.Name = "lblCondition3";
             this.lblCondition3.Size = new System.Drawing.Size(89, 18);
             this.lblCondition3.TabIndex = 79;
@@ -283,7 +283,7 @@
             this.lblDay3.AutoSize = true;
             this.lblDay3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay3.Location = new System.Drawing.Point(123, 350);
+            this.lblDay3.Location = new System.Drawing.Point(113, 350);
             this.lblDay3.Name = "lblDay3";
             this.lblDay3.Size = new System.Drawing.Size(49, 20);
             this.lblDay3.TabIndex = 78;
@@ -292,7 +292,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(16, 350);
+            this.pictureBox4.Location = new System.Drawing.Point(6, 350);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(101, 62);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -304,7 +304,7 @@
             this.lbltemp_5.AutoSize = true;
             this.lbltemp_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp_5.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_5.Location = new System.Drawing.Point(546, 297);
+            this.lbltemp_5.Location = new System.Drawing.Point(515, 294);
             this.lbltemp_5.Name = "lbltemp_5";
             this.lbltemp_5.Size = new System.Drawing.Size(26, 18);
             this.lbltemp_5.TabIndex = 76;
@@ -315,7 +315,7 @@
             this.lblWindS5.AutoSize = true;
             this.lblWindS5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS5.Location = new System.Drawing.Point(546, 259);
+            this.lblWindS5.Location = new System.Drawing.Point(515, 256);
             this.lblWindS5.Name = "lblWindS5";
             this.lblWindS5.Size = new System.Drawing.Size(63, 18);
             this.lblWindS5.TabIndex = 75;
@@ -326,7 +326,7 @@
             this.lblDescription5.AutoSize = true;
             this.lblDescription5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription5.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription5.Location = new System.Drawing.Point(436, 297);
+            this.lblDescription5.Location = new System.Drawing.Point(405, 294);
             this.lblDescription5.Name = "lblDescription5";
             this.lblDescription5.Size = new System.Drawing.Size(94, 18);
             this.lblDescription5.TabIndex = 74;
@@ -337,7 +337,7 @@
             this.lblCondition5.AutoSize = true;
             this.lblCondition5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition5.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition5.Location = new System.Drawing.Point(436, 277);
+            this.lblCondition5.Location = new System.Drawing.Point(405, 274);
             this.lblCondition5.Name = "lblCondition5";
             this.lblCondition5.Size = new System.Drawing.Size(89, 18);
             this.lblCondition5.TabIndex = 73;
@@ -348,7 +348,7 @@
             this.lblDay5.AutoSize = true;
             this.lblDay5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay5.Location = new System.Drawing.Point(436, 257);
+            this.lblDay5.Location = new System.Drawing.Point(405, 254);
             this.lblDay5.Name = "lblDay5";
             this.lblDay5.Size = new System.Drawing.Size(49, 20);
             this.lblDay5.TabIndex = 72;
@@ -357,7 +357,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(329, 257);
+            this.pictureBox6.Location = new System.Drawing.Point(298, 254);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(101, 62);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -369,7 +369,7 @@
             this.lbltemp_4.AutoSize = true;
             this.lbltemp_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp_4.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_4.Location = new System.Drawing.Point(546, 202);
+            this.lbltemp_4.Location = new System.Drawing.Point(516, 204);
             this.lbltemp_4.Name = "lbltemp_4";
             this.lbltemp_4.Size = new System.Drawing.Size(26, 18);
             this.lbltemp_4.TabIndex = 70;
@@ -380,7 +380,7 @@
             this.lblWindS4.AutoSize = true;
             this.lblWindS4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS4.Location = new System.Drawing.Point(546, 164);
+            this.lblWindS4.Location = new System.Drawing.Point(515, 165);
             this.lblWindS4.Name = "lblWindS4";
             this.lblWindS4.Size = new System.Drawing.Size(63, 18);
             this.lblWindS4.TabIndex = 69;
@@ -391,7 +391,7 @@
             this.lblDescription4.AutoSize = true;
             this.lblDescription4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription4.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription4.Location = new System.Drawing.Point(436, 202);
+            this.lblDescription4.Location = new System.Drawing.Point(406, 204);
             this.lblDescription4.Name = "lblDescription4";
             this.lblDescription4.Size = new System.Drawing.Size(94, 18);
             this.lblDescription4.TabIndex = 68;
@@ -402,7 +402,7 @@
             this.lblCondition4.AutoSize = true;
             this.lblCondition4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition4.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition4.Location = new System.Drawing.Point(436, 182);
+            this.lblCondition4.Location = new System.Drawing.Point(406, 184);
             this.lblCondition4.Name = "lblCondition4";
             this.lblCondition4.Size = new System.Drawing.Size(89, 18);
             this.lblCondition4.TabIndex = 67;
@@ -413,7 +413,7 @@
             this.lblDay4.AutoSize = true;
             this.lblDay4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay4.Location = new System.Drawing.Point(436, 162);
+            this.lblDay4.Location = new System.Drawing.Point(406, 164);
             this.lblDay4.Name = "lblDay4";
             this.lblDay4.Size = new System.Drawing.Size(49, 20);
             this.lblDay4.TabIndex = 66;
@@ -422,7 +422,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(329, 162);
+            this.pictureBox5.Location = new System.Drawing.Point(299, 164);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(101, 62);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -434,7 +434,7 @@
             this.lbltemp_2.AutoSize = true;
             this.lbltemp_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp_2.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp_2.Location = new System.Drawing.Point(228, 299);
+            this.lbltemp_2.Location = new System.Drawing.Point(218, 299);
             this.lbltemp_2.Name = "lbltemp_2";
             this.lbltemp_2.Size = new System.Drawing.Size(26, 18);
             this.lbltemp_2.TabIndex = 64;
@@ -445,7 +445,7 @@
             this.lblWindS2.AutoSize = true;
             this.lblWindS2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS2.Location = new System.Drawing.Point(228, 262);
+            this.lblWindS2.Location = new System.Drawing.Point(218, 262);
             this.lblWindS2.Name = "lblWindS2";
             this.lblWindS2.Size = new System.Drawing.Size(63, 18);
             this.lblWindS2.TabIndex = 63;
@@ -456,7 +456,7 @@
             this.lblDescription2.AutoSize = true;
             this.lblDescription2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription2.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription2.Location = new System.Drawing.Point(123, 301);
+            this.lblDescription2.Location = new System.Drawing.Point(113, 301);
             this.lblDescription2.Name = "lblDescription2";
             this.lblDescription2.Size = new System.Drawing.Size(94, 18);
             this.lblDescription2.TabIndex = 62;
@@ -467,7 +467,7 @@
             this.lblCondition2.AutoSize = true;
             this.lblCondition2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition2.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition2.Location = new System.Drawing.Point(123, 281);
+            this.lblCondition2.Location = new System.Drawing.Point(113, 281);
             this.lblCondition2.Name = "lblCondition2";
             this.lblCondition2.Size = new System.Drawing.Size(89, 18);
             this.lblCondition2.TabIndex = 61;
@@ -478,7 +478,7 @@
             this.lblDay2.AutoSize = true;
             this.lblDay2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay2.Location = new System.Drawing.Point(123, 261);
+            this.lblDay2.Location = new System.Drawing.Point(113, 261);
             this.lblDay2.Name = "lblDay2";
             this.lblDay2.Size = new System.Drawing.Size(49, 20);
             this.lblDay2.TabIndex = 60;
@@ -487,7 +487,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(16, 261);
+            this.pictureBox3.Location = new System.Drawing.Point(6, 261);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(101, 62);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -510,7 +510,7 @@
             this.lbltemp1.AutoSize = true;
             this.lbltemp1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltemp1.ForeColor = System.Drawing.Color.DarkRed;
-            this.lbltemp1.Location = new System.Drawing.Point(228, 208);
+            this.lbltemp1.Location = new System.Drawing.Point(218, 208);
             this.lbltemp1.Name = "lbltemp1";
             this.lbltemp1.Size = new System.Drawing.Size(26, 18);
             this.lbltemp1.TabIndex = 57;
@@ -521,7 +521,7 @@
             this.lblWindS1.AutoSize = true;
             this.lblWindS1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblWindS1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblWindS1.Location = new System.Drawing.Point(228, 170);
+            this.lblWindS1.Location = new System.Drawing.Point(218, 168);
             this.lblWindS1.Name = "lblWindS1";
             this.lblWindS1.Size = new System.Drawing.Size(63, 18);
             this.lblWindS1.TabIndex = 56;
@@ -532,7 +532,7 @@
             this.lblDescription1.AutoSize = true;
             this.lblDescription1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescription1.ForeColor = System.Drawing.Color.ForestGreen;
-            this.lblDescription1.Location = new System.Drawing.Point(123, 210);
+            this.lblDescription1.Location = new System.Drawing.Point(113, 210);
             this.lblDescription1.Name = "lblDescription1";
             this.lblDescription1.Size = new System.Drawing.Size(94, 18);
             this.lblDescription1.TabIndex = 55;
@@ -543,7 +543,7 @@
             this.lblCondition1.AutoSize = true;
             this.lblCondition1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCondition1.ForeColor = System.Drawing.Color.Gold;
-            this.lblCondition1.Location = new System.Drawing.Point(123, 190);
+            this.lblCondition1.Location = new System.Drawing.Point(113, 190);
             this.lblCondition1.Name = "lblCondition1";
             this.lblCondition1.Size = new System.Drawing.Size(89, 18);
             this.lblCondition1.TabIndex = 54;
@@ -554,7 +554,7 @@
             this.lblDay1.AutoSize = true;
             this.lblDay1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDay1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblDay1.Location = new System.Drawing.Point(123, 170);
+            this.lblDay1.Location = new System.Drawing.Point(113, 170);
             this.lblDay1.Name = "lblDay1";
             this.lblDay1.Size = new System.Drawing.Size(49, 20);
             this.lblDay1.TabIndex = 53;
@@ -563,7 +563,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(16, 170);
+            this.pictureBox2.Location = new System.Drawing.Point(6, 170);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -674,6 +674,7 @@
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "EXIT";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // txtMail
             // 
@@ -720,6 +721,7 @@
             this.Check.TabIndex = 0;
             this.Check.Text = "Check Me";
             this.Check.UseVisualStyleBackColor = true;
+            this.Check.Click += new System.EventHandler(this.Check_Click_1);
             // 
             // txtLoc
             // 

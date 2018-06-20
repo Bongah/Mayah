@@ -54,10 +54,14 @@ namespace OnlineDate
             }
 
         }
-        DateTime GetDate(double millisecond)
+        DateTime GetDate(string date)
         {
-            DateTime day = new System.DateTime(1970, 1, 1, 0, 0, 0, System.DateTimeKind.Utc).ToLocalTime();
-            day = day.AddSeconds(millisecond).ToLocalTime();
+            DateTime day = DateTime.Now;
+            if (day.AddDays(2).ToString()== date)
+            {
+                MessageBox.Show(day.AddDays(1).ToString("yyyy-MM-dd"));
+            }
+            day = day.AddDays(2);
 
             return day;
         }
@@ -218,10 +222,30 @@ namespace OnlineDate
            
         }
 
-        private void Check_Click(object sender, EventArgs e)
+
+        private void simulateHeavyWork()
+        {
+            Thread.Sleep(101);
+        }
+
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DateTimeOffset localTime = DateTimeOffset.Now;
+            DateTimeOffset utcGlobal = DateTimeOffset.UtcNow;
+
+            txtPC.Text = localTime.ToString("dd-mm-yyyy hh:mm:ss");
+            txtLoc.Text = utcGlobal.ToString("dd-mm-yyyy hh:mm:ss");
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
+        }
 
+        private void Check_Click_1(object sender, EventArgs e)
+        {
 
             txtDifferece.Show();
             lblDiff.Show();
@@ -302,7 +326,7 @@ namespace OnlineDate
                 string smtpServer = "smtp.gmail.com";
                 SmtpClient client = new SmtpClient(smtpServer);
                 MailAddress from = new MailAddress("maqashuaa@email.com", "subject", System.Text.Encoding.UTF8);
-                MailAddress to = new MailAddress("ayazpopcorn@gmail.com");
+                MailAddress to = new MailAddress("ayazpopcorn@gmail.com" + txtMail.Text);
                 MailMessage message = new MailMessage(from, to);
                 message.Body = txtDifferece.Text + txtLoc.Text;
 
@@ -317,7 +341,7 @@ namespace OnlineDate
 
                 client.Send(message);
 
-               // MessageBox.Show("Successfully Sent");
+                // MessageBox.Show("Successfully Sent");
             }
             catch (Exception ax)
             {
@@ -326,30 +350,11 @@ namespace OnlineDate
 
 
             backgroundWorker1.RunWorkerAsync();
-
-        }
-        private void simulateHeavyWork()
-        {
-            Thread.Sleep(101);
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnExit_Click_1(object sender, EventArgs e)
         {
-           Application.Exit();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            DateTimeOffset localTime = DateTimeOffset.Now;
-            DateTimeOffset utcGlobal = DateTimeOffset.UtcNow;
-
-            txtPC.Text = localTime.ToString("dd-mm-yyyy hh:mm:ss");
-            txtLoc.Text = utcGlobal.ToString("dd-mm-yyyy hh:mm:ss");
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
+            Application.Exit();
         }
     }
 }
