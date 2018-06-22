@@ -33,6 +33,7 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTemp = new System.Windows.Forms.Label();
             this.lbltemp_6 = new System.Windows.Forms.Label();
             this.lblWindS6 = new System.Windows.Forms.Label();
             this.lblDescription6 = new System.Windows.Forms.Label();
@@ -90,7 +91,6 @@
             this.lblOnline = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.lblPC = new System.Windows.Forms.Label();
-            this.lblTemp = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -168,6 +168,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Weather Forcast:";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // lblTemp
+            // 
+            this.lblTemp.AutoSize = true;
+            this.lblTemp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemp.ForeColor = System.Drawing.Color.Gold;
+            this.lblTemp.Location = new System.Drawing.Point(382, 59);
+            this.lblTemp.Name = "lblTemp";
+            this.lblTemp.Size = new System.Drawing.Size(29, 20);
+            this.lblTemp.TabIndex = 91;
+            this.lblTemp.Text = "26";
             // 
             // lbltemp_6
             // 
@@ -776,17 +787,6 @@
             this.lblPC.Size = new System.Drawing.Size(83, 19);
             this.lblPC.TabIndex = 10;
             this.lblPC.Text = "PC Time:";
-            // 
-            // lblTemp
-            // 
-            this.lblTemp.AutoSize = true;
-            this.lblTemp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemp.ForeColor = System.Drawing.Color.Gold;
-            this.lblTemp.Location = new System.Drawing.Point(382, 59);
-            this.lblTemp.Name = "lblTemp";
-            this.lblTemp.Size = new System.Drawing.Size(29, 20);
-            this.lblTemp.TabIndex = 91;
-            this.lblTemp.Text = "26";
             // 
             // Form1
             // 
